@@ -20,7 +20,7 @@ Copy Elision/Mandatory Return Value Optimization (RVO): The code is written in s
 These features help make the code more expressive, concise, and efficient. C++17's enhancements support modern programming practices, facilitating both readability and performance.
 # Key Features
 
-# std::unordered_map
+# std::unordered_map:
 The code makes extensive use of unordered maps to store and organize job data. It's a useful data structure for efficient lookup operations.
 
 # CSV Parsing: 
