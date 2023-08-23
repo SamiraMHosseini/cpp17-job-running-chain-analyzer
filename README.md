@@ -15,7 +15,7 @@ std::format: This C++20 feature provides a type-safe and extensible way to forma
 
 Class Template Argument Deduction (CTAD): This allows the compiler to deduce class template arguments from the constructor or aggregate initialization, enabling cleaner syntax. It is implicitly used in the code with standard containers like std::vector and std::pair.
 
-Copy Elision/Mandatory Return Value Optimization (RVO): The code is written in such a way that it can benefit from return value optimization, a compiler optimization technique that avoids unnecessary copy or move operations for return values. It's mentioned in the comments related to functions returning vectors and unordered_maps.
+Copy/Move Elision/Mandatory Return Value Optimization (RVO): The code is written in such a way that it can benefit from return value optimization, a compiler optimization technique that avoids unnecessary copy or move operations for return values. It's mentioned in the comments related to functions returning vectors and unordered_maps.
 
 These features help make the code more expressive, concise, and efficient. C++17's enhancements support modern programming practices, facilitating both readability and performance.
 # Key Features
