@@ -11,8 +11,6 @@ std::string_view: std::string_view provides a non-owning reference to a string o
 
 std::span: This C++20 feature provides a view over a contiguous sequence of objects. It's used in the parse_jobs function to accept a view of a vector of integers, offering more flexibility in calling the function with different kinds of contiguous containers.
 
-std::unordered_map: While not new in C++17, the code snippet makes extensive use of unordered maps to store and organize job data. It's a useful data structure for efficient lookup operations.
-
 std::format: This C++20 feature provides a type-safe and extensible way to format text, similar to printf. The code uses it to construct human-readable strings representing job summaries, e.g., std::format("{:02}:{:02}:{:02}", hrs, mins, secs).
 
 Class Template Argument Deduction (CTAD): This allows the compiler to deduce class template arguments from the constructor or aggregate initialization, enabling cleaner syntax. It is implicitly used in the code with standard containers like std::vector and std::pair.
@@ -21,6 +19,9 @@ Copy Elision/Mandatory Return Value Optimization (RVO): The code is written in s
 
 These features help make the code more expressive, concise, and efficient. C++17's enhancements support modern programming practices, facilitating both readability and performance.
 # Key Features
+
+# std::unordered_map
+The code makes extensive use of unordered maps to store and organize job data. It's a useful data structure for efficient lookup operations.
 
 # CSV Parsing: 
 
